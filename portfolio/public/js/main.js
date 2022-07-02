@@ -18,6 +18,6 @@ var a0002 = L.marker([50.85529, 4.3411]).addTo(map);
 a0001.bindPopup(`<b>A0001</b><br><p>I am a popup.</p>`).openPopup();
 a0002
   .bindPopup(
-    `<b>A0002</b><br>Devant MolenGeek.<br> <audio src="../../../portfolio/public/audio/a0002.mp3" controls ></audio>`
+    `<b>A0002</b><br>Devant MolenGeek.<br> <audio src="https://ipfs.io/ipfs/bafybeiczts35l7rltvsfffsudiotdzafoat4ph765xk2fuejee2y7m4xqy?filename=30%3A06%3A2022-8H20.wav" controls ></audio>`
   )
   .openPopup();
