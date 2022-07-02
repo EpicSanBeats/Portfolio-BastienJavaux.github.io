@@ -18,6 +18,6 @@ var a0002 = L.marker([50.85529, 4.3411]).addTo(map);
 a0001.bindPopup(`<b>A0001</b><br><p>I am a popup.</p>`).openPopup();
 a0002
   .bindPopup(
-    `<b>A0002</b><br>Devant MolenGeek.<br> <audio src="../../../portfolio/public/audio/a0002.wav" controls ></audio>`
+    `<b>A0002</b><br>Devant MolenGeek.<br> <audio src="../../../portfolio/public/audio/a0002.mp3" controls ></audio>`
   )
   .openPopup();
