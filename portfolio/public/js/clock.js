@@ -1,5 +1,5 @@
 function heure() {
-  var dayJSPlug = dayjs().hour(12);
+  var dayJSPlug = dayjs().hour(24);
 
   document.getElementById("heure").innerHTML = dayJSPlug;
 }

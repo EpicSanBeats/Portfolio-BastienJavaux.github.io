@@ -3,12 +3,34 @@
 
 }
 
+.hero {
+    background-image: url("../img/backhero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.titleAll {
+    padding-top: 35vh;
+}
+
+#titleAll {
+    background-color: black;
+    margin-left: 60vh;
+    margin-right: 60vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+/*map.html*/
+
+
 #map {
     height: 100vh;
 }
 
 
 #clock {
-    width: 66%;
+    width: 53%;
 
 }
