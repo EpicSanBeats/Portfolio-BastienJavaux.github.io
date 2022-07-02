@@ -1,5 +1,3 @@
-// import L from "../../node_modules/leaflet/dist/leaflet";
-
 // const apiKey =
 //   "pk.eyJ1IjoiZXBpY3NhbmJlYXRzIiwiYSI6ImNsNTJmeWR6aTBmYWszY21hcmtkN2d4ZGkifQ._suiTDl45Rcip8d1Uh0yRA";
 
@@ -13,7 +11,6 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 //Markers
 var a0001 = L.marker([50.87652, 4.36345]).addTo(map);
 var a0002 = L.marker([50.85529, 4.3411]).addTo(map);
-
 //Popup
 a0001
   .bindPopup(
@@ -25,3 +22,5 @@ a0002
     `<b>A0002</b><br>Devant MolenGeek.<br> <audio src="https://ipfs.io/ipfs/bafybeiczts35l7rltvsfffsudiotdzafoat4ph765xk2fuejee2y7m4xqy?filename=30%3A06%3A2022-8H20.wav" controls ></audio>`
   )
   .openPopup();
+
+export { a0001, a0002 };

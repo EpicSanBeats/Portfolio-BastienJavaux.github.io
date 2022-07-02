@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "leaflet": "^1.8.0"
+    "bootstrap": "^5.2.0-beta1",
+    "dayjs": "^1.11.3",
+    "leaflet": "^1.8.0",
+    "moment": "^2.29.3"
   }
 }

@@ -1,3 +1,14 @@
+.navbar-nav {
+    width: 100% !important;
+
+}
+
 #map {
     height: 100vh;
+}
+
+
+#clock {
+    width: 66%;
+
 }
