@@ -24,10 +24,14 @@
 
 /*map.html*/
 
+#momentDeLaJournee {
+    height: 10px;
+}
 
 #map {
     height: 100vh;
 }
+
 
 
 #clock {

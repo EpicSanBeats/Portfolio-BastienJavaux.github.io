@@ -3,6 +3,8 @@
     "bootstrap": "^5.2.0-beta1",
     "dayjs": "^1.11.3",
     "leaflet": "^1.8.0",
-    "moment": "^2.29.3"
+    "moment": "^2.29.3",
+    "openweather-apis": "^4.4.2",
+    "weather.js": "^0.1.0"
   }
 }

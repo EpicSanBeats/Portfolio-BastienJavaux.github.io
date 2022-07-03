@@ -1,9 +1,12 @@
 var t = new Date().getHours();
 
 if (t < 10) {
-  document.body.style.backgroundColor = "##B3E0F2";
+  document.getElementById("momentDeLaJournee").innerHTML =
+    '<i class="fa-solid fa-mug-saucer"></i>';
 } else if (t < 20) {
-  document.body.style.backgroundColor = "##48A1D9";
+  document.getElementById("momentDeLaJournee").innerHTML =
+    '<i class="fa-solid fa-sun"></i>';
 } else {
-  document.body.style.backgroundColor = "#F2CD5E";
+  document.getElementById("momentDeLaJournee").innerHTML =
+    '<i class="fa-solid fa-moon"></i>';
 }

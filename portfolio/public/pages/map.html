@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../../node_modules/leaflet/dist/leaflet.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -38,7 +41,8 @@
                         <span id="min">00</span>
                         <span>:</span>
                         <span id="sec">00</span>
-
+                        <span> - </span>
+                        <span id="momentDeLaJournee"></span>
                     </div>
                 </ul>
 
@@ -47,6 +51,12 @@
     </nav>
     <!--Map-->
     <div id="map"></div>
+    <div id="weather">
+        <p id="description"></p>
+        <h1 id="temp"></h1>
+        <p id="location"></p>
+    </div>
+
 
 
 
@@ -63,6 +73,12 @@
     <script type="module" src="../js/time.js"></script>
     <script type="module" src=" ../js/clock.js"></script>
     <script src="../js/themeTime.js"></script>
+    <!--Meteo-->
+    <script>
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+    </script>
+    <script type="module" src="../js/meteoLoc/a0001.js"></script>
+
 </body>
 
 </html>
